@@ -1,6 +1,6 @@
 {
   "name": "document-reader-ts",
-  "version": "1.0.6",
+  "version": "1.1.1",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -15,17 +15,19 @@
   "author": "Duong Chien",
   "license": "ISC",
   "devDependencies": {
+    "@react-pdf/renderer": "^2.1.1",
     "@types/node": "^17.0.35",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
     "bootstrap": "^5.2.0-beta1",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "typescript": "^4.6.4"
   },
   "peerDependencies": {
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-pdf": "^5.7.2"
   },
   "keywords": [
     "react",
@@ -36,5 +38,8 @@
     "url": "https://github.com/duongvanchien/document-reader"
   },
   "homepage": "https://github.com/duongvanchien",
-  "dependencies": {}
+  "dependencies": {
+    "@types/react-pdf": "^5.7.2",
+    "react-pdf": "^5.7.2"
+  }
 }

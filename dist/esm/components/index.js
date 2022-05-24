@@ -1,2 +1,2 @@
-export * from './Button';
+export * from './pdf-reader';
 //# sourceMappingURL=index.js.map
