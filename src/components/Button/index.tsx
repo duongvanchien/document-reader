@@ -28,7 +28,7 @@ export const CustomButton = (props: {
                 backgroundColor: color
             }}
         >
-            {content.toUpperCase()}
+            {content}
         </button>
     )
 }
