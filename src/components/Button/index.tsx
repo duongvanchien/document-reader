@@ -22,13 +22,6 @@ export const CustomButton = (props: {
     })
 
     return (
-        <button
-            className="buttonComponent"
-            style={{
-                backgroundColor: color
-            }}
-        >
-            {content}
-        </button>
+        <button type="button" className="btn btn-primary">{content}</button>
     )
 }
